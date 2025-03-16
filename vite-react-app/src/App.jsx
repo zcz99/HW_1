@@ -3,9 +3,10 @@ import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 import { CurrentYear } from './my components/Current Year.jsx';
+import { createElement } from 'react';
 
 function App() {
-	const [count, setCount] = useState(0); // декларативный стиль и весь JSX также
+	const [count, setCount] = useState(0); // декларативный стиль и как и весь JSX
 
 	return (
 		<>
